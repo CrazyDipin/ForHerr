@@ -1571,6 +1571,7 @@ body {
 }
 .containerBB {
   position: fixed;
+  /* top: 484px; */
   bottom: -100%;
   opacity: 0;
   left: 50%;
@@ -1582,10 +1583,24 @@ body {
   .crName {
     font-size: 30px;
   }
+
+  @keyframes bb {
+    to {
+      bottom: 30%;
+      opacity: 0.6;
+    }
+  }
 }
 @media (min-width: 331px) and (max-width: 435px) {
   .crName {
     font-size: 30px;
+  }
+
+  @keyframes bb {
+    to {
+      bottom: 30%;
+      opacity: 0.6;
+    }
   }
 }
 
