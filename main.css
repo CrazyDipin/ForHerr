@@ -1558,7 +1558,7 @@ body {
   text-align: center;
   line-height: 47px;
   color: whitesmoke;
-  font-size: 90px;
+  font-size: 70px;
   width: 100%;
 
   font-weight: bold;
@@ -1584,6 +1584,12 @@ body {
   }
 }
 @media (min-width: 331px) and (max-width: 435px) {
+  .crName {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 436px) and (max-width: 600px) {
   .crName {
     font-size: 60px;
   }
