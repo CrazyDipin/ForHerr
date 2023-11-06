@@ -1556,10 +1556,11 @@ body {
 
 .crName {
   text-align: center;
-  line-height: 47px;
+  line-height: 77px;
   color: whitesmoke;
-  font-size: 70px;
-  width: 100%;
+  font-size: 60px;
+  width: 80%;
+  margin: 0 auto;
 
   font-weight: bold;
 }
@@ -1582,11 +1583,13 @@ body {
 @media (max-width: 330px) {
   .crName {
     font-size: 30px;
+    line-height: 40px;
+    width: 100%;
   }
 
   @keyframes bb {
     to {
-      bottom: 30%;
+      bottom: 50%;
       opacity: 0.6;
     }
   }
@@ -1594,11 +1597,13 @@ body {
 @media (min-width: 331px) and (max-width: 435px) {
   .crName {
     font-size: 30px;
+    line-height: 47px;
+    width: 100%;
   }
 
   @keyframes bb {
     to {
-      bottom: 30%;
+      bottom: 50%;
       opacity: 0.6;
     }
   }
@@ -1606,6 +1611,8 @@ body {
 
 @media (min-width: 436px) and (max-width: 600px) {
   .crName {
-    font-size: 60px;
+    font-size: 50px;
+    line-height: 57px;
+    width: 100%;
   }
 }
